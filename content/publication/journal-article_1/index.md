@@ -1,26 +1,26 @@
 ---
-title: "Enhancing the Simulation Accuracy of Small Organic Molecules with an Optimized Lennard-Jones Coarse-Grained Model"
+title: "A Coarse-Grained Model for Small Organic Molecules with Optimized Lennard-Jones Parameters"
 authors:
 - admin
 - Tong Zhu
 - Ruibo Wu
 - Fei Xia*
-date: "2025-09-16T00:00:00Z"
-doi: "10.26434/chemrxiv-2025-cb49x"
+date: "2026-09-15T00:00:00Z"
+doi: "10.1021/acs.jpcb.6c05069"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-09-16T00:00:00Z"
+publishDate: "2026-09-15T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["preprint"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ChemRxiv"
-publication_short: ""
+publication: "The Journal of Physical Chemistry B"
+publication_short: "J. Phys. Chem. B"
 
-abstract: Developing accurate coarse-grained (CG) molecular models is crucial for building databases of complex chemical molecules and conducting related data-driven research. The accuracy of CG models is typically affected by CG bead resolution and non-bonded interaction parameters. In this study, an optimized Lennard-Jones (LJ) CG model (OLJCG) for small organic molecules was developed with parameters derived from the general Amber force field. The performance of the OLJCG model was evaluated by simulating the density of organic molecules, vaporization enthalpy, non-aqueous solvation free energy, and hydration free energy. CG molecular dynamics (CGMD) simulations demonstrate that introducing optimized LJ parameters into the OLJCG model effectively enhances the description of non-bonded interactions between CG particles. The optimization strategy proposed in this paper provides an accurate and systematic method for future development of CG small molecule databases.
+abstract: Developing accurate coarse-grained (CG) molecular models is crucial for constructing databases of complex chemical molecules and enabling data-driven research. Here we present the OLJCG model for small organic molecules, with Lennard-Jones (LJ) parameters optimized via the Lennard-Jones Static Potential Matching method based on the GAFF2 force field. The OLJCG model is systematically evaluated on two datasets (DS58 and DS29) for densities, vaporization enthalpies, nonaqueous solvation free energies, hydration free energies, and transfer free energies. The results demonstrate that the optimized LJ parameters effectively preserve the description of nonbonded interactions from the all-atom force field. The primary sources of error are identified as the neglect of electrostatic interactions and the use of a nonoptimized water model, providing clear directions for future refinement. The optimization strategy proposed here provides a systematic route for developing CG small-molecule databases.
 
 # Summary. An optional shortened abstract.
 summary:
@@ -32,7 +32,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'https://pubs.acs.org/jpcbfk/article-pdf/doi/10.1021/acs.jpcb.6c05069/68507791/acs.jpcb.6c05069.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -44,7 +44,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ''
+  caption: 'TOC'
   focal_point: ""
   preview_only: false
 
