@@ -18,7 +18,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "The Journal of Physical Chemistry B"
-publication_short: "J. Phys. Chem. B"
+publication_short: "*J. Phys. Chem. B*"
 
 abstract: Developing accurate coarse-grained (CG) molecular models is crucial for constructing databases of complex chemical molecules and enabling data-driven research. Here we present the OLJCG model for small organic molecules, with Lennard-Jones (LJ) parameters optimized via the Lennard-Jones Static Potential Matching method based on the GAFF2 force field. The OLJCG model is systematically evaluated on two datasets (DS58 and DS29) for densities, vaporization enthalpies, nonaqueous solvation free energies, hydration free energies, and transfer free energies. The results demonstrate that the optimized LJ parameters effectively preserve the description of nonbonded interactions from the all-atom force field. The primary sources of error are identified as the neglect of electrostatic interactions and the use of a nonoptimized water model, providing clear directions for future refinement. The optimization strategy proposed here provides a systematic route for developing CG small-molecule databases.
 

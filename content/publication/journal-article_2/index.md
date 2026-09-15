@@ -18,7 +18,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Journal of Chemical Theory and Computation"
-publication_short: "J. Chem. Theory Comput."
+publication_short: "*J. Chem. Theory Comput*"
 
 abstract: Protein allostery plays essential roles in many biological processes through long-range communication between distant sites. Three-dimensional Shortest Path Map (3D SPM) graphs generated from molecular dynamics trajectories provide an effective, structure-embedded representation of protein conformational dynamics and allosteric communication pathways. However, comparisons among 3D SPM graphs have remained largely qualitative, limiting quantitative insight. Here, we address this gap by introducing an algorithm that uses the earth mover’s distance (EMD) and the normalized graph Laplacian to quantitatively measure distances between 3D SPM graphs by evaluating their spatial distributions and network connectivity. This approach allows us to establish the sensitivity of computed allosteric communication networks to the choice of force field and other parameters in the 3D SPM calculations. Furthermore, the quantitative comparison of 3D SPM graphs enables distinguishing mutations that minimally perturb allosteric communication from those that substantially rewire the network. Importantly, decomposition of the EMD highlights the residues and edges that contribute the most to these shifts. This work has the potential to facilitate the analysis of high-throughput experiments regarding protein function and evolution, and to provide guidance for protein engineering.
 
